@@ -3,7 +3,7 @@ remote_theme: just-the-docs/just-the-docs
 
 nav_external_links:
   - title: Conclusion
-    url: lab11%20stream_data_pipeline_3_spark.html#conclusion
+    url: lab12%20stream_data_pipeline_4_kafka_spark.html#conclusion
   
 just_the_docs:
   custom_css:
