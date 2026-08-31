@@ -1,32 +1,33 @@
 # Lab 12 Stream Data Pipeline IV - Kafka & Spark (Optional)
 
-Many companies mix and match different softwares to tap on each software's strength. This week you will integrate Apache Kafka, Apache Spark, Elasticsearch and Kibana.
+Many companies mix and match different softwares to tap on each software's strength. In this optional lab, you will integrate Apache Kafka, Apache Spark, Elasticsearch, and Kibana to build an end-to-end streaming pipeline.
 
 This lab is optional. You do not need to submit anything. 
 
-Create a new jupyter notebook file "stream_data_pipeline_4_kafka_spark.ipynb".
+Create a new Jupyter notebook file named `stream_data_pipeline_4_kafka_spark.ipynb`.
 
 
 ```python
 import os
 home_directory = os.path.expanduser("~")
-os.chdir(home_directory+'/Documents/projects/ee3801')
+os.chdir(os.path.join(home_directory, 'Documents', 'projects', 'ee3801'))
 ```
 
-Many video content in online streaming platforms do not have audio captions and who-say-what features. The technology company would like you to create an end-to-end real-time system that captures the audio, transcibes it, identify different speakers in text and insert the information into the NoSQL database for real-time analysis. 
+Many online video platforms do not provide captions or speaker attribution for audio content. In this lab, you will design a real-time system that:
 
-Using the diagram below and the lab notes from previous weeks, implement the system. The system should:
-1. Capture audio from your device
-2. Pass the audio through Apache Kafka
-3. Transcribe, identify speakers in text and insert the data in elasticsearch using Apache Spark 
-4. In real-time visualise the video content with transcription in caption and differentiate speakers.
+1. Captures audio from your device.
+2. Sends audio data through Apache Kafka.
+3. Uses Apache Spark to transcribe audio, identify speakers, and insert the results into Elasticsearch.
+4. Visualizes the transcription and speaker information in real time using Kibana.
+
+Use the diagram below and the lab notes from previous weeks to guide your implementation.
 
 <img src="image/week12_image1.png">
 
-
 # Conclusion
 
-- You have successfully integrated all that you have learnt in this course using Apache Kafka, Apache Spark, Elasticsearch and Kibana. 
-- You are not expected to submit anything but I welcome you to share your implementation and we can discuss the excitement of your achievements.
+- You have combined the technologies learned in this course: Apache Kafka, Apache Spark, Elasticsearch, and Kibana.
+- This lab is optional, so no submission is required.
+- Feel free to share your implementation if you want feedback or discussion on your design and results.
 
 
