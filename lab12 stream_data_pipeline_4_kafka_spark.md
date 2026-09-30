@@ -4,6 +4,8 @@ Many companies mix and match different softwares to tap on each software's stren
 
 This lab is optional. You do not need to submit anything. 
 
+Note: When copying the codes to your notebook, select all and ```Shift+Tab``` to remove leading spaces.
+
 Create a new Jupyter notebook file named `stream_data_pipeline_4_kafka_spark.ipynb`.
 
 
